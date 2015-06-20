@@ -14,7 +14,7 @@ bg_color = Color(0, 0, 0, 255)
 # foreground color
 fg_color = Color(0, 0, 255, 255)
 # number of circles
-circle_number = 2500
+circle_number = 3500
 
 def find_radius(circ_list, x, y):
     """This function returns the maximum radius that a circle centered at
@@ -73,4 +73,3 @@ if __name__ == '__main__':
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit(0)
-
